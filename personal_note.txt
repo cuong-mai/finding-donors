@@ -1,0 +1,47 @@
+Model name:
+- Real wold application:
+- Strengths/when perform well:
+- Weaknesses/when perform poorly:
+- What make this model good candidate:
+
+Gaussian Naive Bayes (GaussianNB) - NO
+- Real wold application:
+- Strengths/when perform well:
+- Weaknesses/when perform poorly:
+- What make this model good candidate:
+
+K-Nearest Neighbors - NO:
+- Real wold application:
+- Strengths/when perform well: When data set is small, noise-free, all labeled
+- Weaknesses/when perform poorly: Slow when data set is big or high-demensional
+- What make this model good candidate: No training, instance-based, one hyperparameter
+- Reference:
+    - https://www.youtube.com/watch?v=4HKqjENq9OU
+    - https://quantdare.com/10-reasons-for-loving-nearest-neighbors-algorithm/
+
+Stochastic Gradient Descent:
+- Real wold application:
+- Strengths/when perform well: Useful when there are redundancies in data
+- Weaknesses/when perform poorly:
+- What make this model good candidate:
+- References:
+    - https://www.youtube.com/watch?v=vMh0zPT0tLI
+
+
+
+Naive Predictor: [Accuracy score: 0.2478, Precision score: 0.2478, Recall score: 1.0000, F-score: 0.2917]
+
+
+Unoptimized model
+------
+Accuracy score on training data: 0.8657
+F-score on training data: 0.7530
+Accuracy score on testing data: 0.8630
+F-score on testing data: 0.7395
+
+Optimized Model
+------
+Final accuracy score on the training data: 0.8755
+Final F-score on the training data: 0.7698
+Final accuracy score on the testing data: 0.8700
+Final F-score on the testing data: 0.7518
